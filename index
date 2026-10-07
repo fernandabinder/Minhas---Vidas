@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minhas Vidas em Outras Dimensões</title>
+<meta name="description" content="Um livro sobre sonhos como portais para dimensões infinitas. Planner e coloring book inclusos.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: #0f0e17; color: #fffffe; line-height: 1.7; }
+  header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 80px 20px 60px; text-align: center; }
+  .eyebrow { letter-spacing: 4px; text-transform: uppercase; font-size: 13px; color: #f25f4c; margin-bottom: 20px; }
+  h1 { font-size: clamp(32px, 6vw, 56px); font-weight: normal; max-width: 800px; margin: 0 auto 24px; }
+  .subtitle { font-size: clamp(16px, 2.5vw, 22px); color: #a7a9be; max-width: 600px; margin: 0 auto 40px; }
+  .btn { display: inline-block; background: #f25f4c; color: #fffffe; padding: 16px 40px; border-radius: 50px; text-decoration: none; font-size: 18px; }
+  section { max-width: 900px; margin: 0 auto; padding: 80px 20px; }
+  h2 { font-size: clamp(26px, 4vw, 36px); margin-bottom: 30px; text-align: center; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; margin-top: 40px; }
+  .card { background: #1a1a2e; border-radius: 16px; padding: 40px 30px; border: 1px solid #2e2e4a; }
+  .card h3 { font-size: 22px; margin-bottom: 16px; color: #f25f4c; }
