@@ -9,6 +9,10 @@
 <meta property="og:title" content="Minhas Vidas em Outras Dimensões">
 <meta property="og:description" content="Um livro sobre sonhos como portais para dimensões infinitas. Planner e coloring book inclusos.">
 <meta property="og:image" content="/capa.png">
+<meta property="og:locale" content="pt_BR">
+<link rel="alternate" hreflang="pt-BR" href="/">
+<link rel="alternate" hreflang="en" href="/en/">
+<link rel="alternate" hreflang="x-default" href="/">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -17,9 +21,14 @@
   nav { position: sticky; top: 0; z-index: 10; background: rgba(15,14,23,.9); backdrop-filter: blur(8px); border-bottom: 1px solid #2e2e4a; }
   nav .wrap { max-width: 1100px; margin: 0 auto; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
   nav .brand { font-size: 18px; text-decoration: none; }
+  nav .right { display: flex; align-items: center; gap: 24px; }
   nav ul { list-style: none; display: flex; gap: 24px; font-size: 15px; }
   nav ul a { text-decoration: none; color: #a7a9be; }
   nav ul a:hover { color: #fffffe; }
+  .lang { display: flex; border: 1px solid #2e2e4a; border-radius: 50px; overflow: hidden; font-size: 13px; letter-spacing: 1px; }
+  .lang a { padding: 6px 12px; text-decoration: none; color: #a7a9be; }
+  .lang a[aria-current="true"] { background: #f25f4c; color: #fffffe; }
+  .lang a:not([aria-current="true"]):hover { color: #fffffe; }
   header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 80px 20px; }
   .hero { max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 48px; }
   .hero-text { flex: 1 1 380px; }
@@ -57,12 +66,18 @@
 <nav aria-label="Principal">
   <div class="wrap">
     <a class="brand" href="#inicio">Minhas Vidas</a>
-    <ul>
-      <li><a href="#livro">O livro</a></li>
-      <li><a href="#inclusos">O que vem junto</a></li>
-      <li><a href="#para-quem">Para quem é</a></li>
-      <li><a href="#adquirir">Adquirir</a></li>
-    </ul>
+    <div class="right">
+      <ul>
+        <li><a href="#livro">O livro</a></li>
+        <li><a href="#inclusos">O que vem junto</a></li>
+        <li><a href="#para-quem">Para quem é</a></li>
+        <li><a href="#adquirir">Adquirir</a></li>
+      </ul>
+      <div class="lang" role="group" aria-label="Idioma">
+        <a href="/" hreflang="pt-BR" aria-current="true">PT</a>
+        <a href="/en/" hreflang="en" lang="en">EN</a>
+      </div>
+    </div>
   </div>
 </nav>
 
